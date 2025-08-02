@@ -7,7 +7,7 @@ export default function FreeConsultation() {
     {
       icon: <CheckCircle className="w-6 h-6" />,
       title: "Goals Discussion",
-      description: "We'll talk about your fitness aspirations, timeline, and what success looks like for you."
+      description: "We&apos;ll talk about your fitness aspirations, timeline, and what success looks like for you."
     },
     {
       icon: <Calendar className="w-6 h-6" />,
@@ -44,22 +44,22 @@ export default function FreeConsultation() {
           <div className="text-center mb-16">
             <div className="inline-flex items-center gap-2 bg-green-500/10 border border-green-500/30 rounded-full px-6 py-3 mb-6">
               <Gift className="w-5 h-5 text-green-400" />
-              <span className="text-green-400 font-semibold">100% Free • No Commitment</span>
+              <span className="text-green-400 font-semibold">100% Free &bull; No Commitment</span>
             </div>
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-heading mb-6">
-              <span className="text-white">Get Your</span><br />
+              <span className="text-white">Claim Your</span><br />
               <span className="text-primary-500">Free 15-Minute Consultation</span>
             </h2>
             <p className="text-xl text-neutral-400 max-w-3xl mx-auto leading-relaxed">
-              Before you commit to any training package, let's have a friendly chat to understand your goals and find the perfect fitness solution for you.
+              Let&apos;s chat about your goals and see how I can help you succeed. No pressure, just expert advice and a personalized plan for your fitness journey.
             </p>
             <div className="w-24 h-1 bg-gradient-to-r from-primary-500 to-primary-600 mx-auto rounded-full mt-8"></div>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Left Side - What's Included */}
+            {/* Left Side - What&apos;s Included */}
             <div>
-              <h3 className="text-3xl font-bold text-white mb-8">What's included in your consultation:</h3>
+              <h3 className="text-3xl font-bold text-white mb-8">What&apos;s Included in Your Free Consultation:</h3>
               
               <div className="space-y-6">
                 {consultationIncludes.map((item, index) => (
@@ -81,11 +81,10 @@ export default function FreeConsultation() {
                   <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center">
                     <CheckCircle className="w-5 h-5 text-white" />
                   </div>
-                  <span className="text-green-400 font-bold text-lg">100% Free • No Strings Attached</span>
+                  <span className="text-green-400 font-bold text-lg">100% Free &bull; No Strings Attached</span>
                 </div>
                 <p className="text-neutral-300 text-sm">
-                  This consultation is completely free with no obligation to purchase any packages. 
-                  It's Tshiamo's way of ensuring you get the right training approach for your unique situation.
+                  No obligation &mdash; just a chance to get the right training approach for your unique situation. I&apos;m here to help you make the best choice for your goals.
                 </p>
               </div>
             </div>
@@ -97,9 +96,9 @@ export default function FreeConsultation() {
                   <MessageCircle className="w-10 h-10 text-white" />
                 </div>
                 
-                <h3 className="text-2xl font-bold text-white mb-4">Ready to get started?</h3>
+                <h3 className="text-2xl font-bold text-white mb-4">Ready to Transform Your Fitness?</h3>
                 <p className="text-lg text-neutral-300 mb-8">
-                  Book your free consultation now and take the first step towards achieving your fitness goals.
+                  Book your free consultation now and take the first step toward your best self.
                 </p>
 
                 {/* Key Benefits */}
@@ -120,17 +119,17 @@ export default function FreeConsultation() {
                   onClick={handleBookConsultation}
                   className="w-full bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-primary-500/25 mb-4"
                 >
-                  Schedule Your Free Consultation
+                  Book My Free Consultation
                 </button>
 
                 <p className="text-sm text-neutral-500">
-                  Usually responds within a few minutes
+                  Fast response &mdash; usually within minutes!
                 </p>
               </div>
 
               {/* Additional CTA */}
               <div className="mt-8 text-center">
-                <p className="text-neutral-400 mb-4">Prefer to call or email?</p>
+                <p className="text-neutral-400 mb-4">Prefer a direct chat or email?</p>
                 <div className="flex flex-col sm:flex-row gap-3 justify-center">
                   <a
                     href="mailto:tshiamokl@gmail.com"
@@ -155,7 +154,7 @@ export default function FreeConsultation() {
         <div className="text-center mb-16">
           <div className="inline-block mb-6">
             <span className="text-primary-400 text-lg font-bold tracking-wider uppercase border border-primary-500/30 px-6 py-3 rounded-full bg-primary-500/10">
-              Free of Charge
+              100% Free Consultation
             </span>
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-heading text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-accent-400 mb-6 muscle-text">
@@ -163,17 +162,16 @@ export default function FreeConsultation() {
           </h2>
           <div className="section-divider mb-8" />
           <p className="text-lg text-neutral-300 max-w-3xl mx-auto leading-relaxed font-medium">
-            Start your fitness journey with confidence. Our complimentary consultation helps us understand 
-            your goals and creates the perfect training plan for your success.
+            Start your fitness journey with confidence. This complimentary session helps us understand your goals and create the perfect plan for your success.
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 max-w-6xl mx-auto items-center">
-          {/* What's Included */}
+          {/* What&apos;s Included */}
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl sm:text-3xl font-bold text-primary-400 mb-6 muscle-text">
-                What's Included in Your Consultation:
+                What&apos;s Included in Your Consultation:
               </h3>
               <div className="space-y-6">
                 {consultationIncludes.map((item, index) => (
@@ -209,7 +207,7 @@ export default function FreeConsultation() {
                 </h3>
                 <p className="text-neutral-300 font-medium">
                   This consultation is completely free with no strings attached. 
-                  It's my way of ensuring we're the right fit for each other.
+                  It&apos;s my way of ensuring we&apos;re the right fit for each other.
                 </p>
               </div>
               <div className="mb-6">
@@ -229,7 +227,7 @@ export default function FreeConsultation() {
               <div className="text-center">
                 <p className="text-sm text-neutral-400 mb-2">Or contact me directly:</p>
                 <a
-                  href="https://wa.me/27635432439?text=Hi! I'd like to book my free 15-minute consultation. When are you available?"
+                  href="https://wa.me/27635432439?text=Hi! I&apos;d like to book my free 15-minute consultation. When are you available?"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-secondary w-full text-center py-3 block luxury-glow bg-green-600 hover:bg-green-700 from-green-600 to-green-700 hover:from-green-500 hover:to-green-600"
