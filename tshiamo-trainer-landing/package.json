@@ -1,0 +1,31 @@
+{
+  "name": "tshiamo-trainer-landing",
+  "version": "1.0.0",
+  "description": "Landing page for personal trainer Tshiamo Sookane based in Sandton CBD, Gauteng.",
+  "main": "src/app/page.tsx",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "personal trainer",
+    "landing page",
+    "fitness",
+    "Tshiamo Sookane"
+  ],
+  "author": "Tshiamo Sookane",
+  "license": "MIT",
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "latest"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "typescript": "latest"
+  }
+}
